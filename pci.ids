@@ -19790,6 +19790,26 @@
 	0700  Wave300 PSB8224 [Hyperion III]
 	0710  Wave300 PSB8231 [Hyperion III]
 1a32  Quanta Microsystems, Inc
+# https://pcisig.com/membership/member-companies?combine=mrf
+1a3e  Micro-Research Finland Oy
+#
+# pci_mrfev.h 
+#
+        10C8  PMC Event Receiver 200
+	11E6  PMC Event Receiver 230
+	10DC  CPCI Event Receiver 220
+	20DC  CPCI Event Generator 220
+	10E6  CPCI Event Receiver 230
+	20E6  CPCI Event Generator 230
+	152C  CPCI Event Receiver 300
+	172C  PCIE Event Receiver 300
+	252C  CPCI Event Generator 300
+	112C  PXIE Event Receiver 300
+	212C  PXIE Event Generator 300
+	192C  CPCI Event Receiver/Gun Transmitter 
+	30E6  CPCI Fan-Out Concentrator
+	132C  MTCA Event Receiver 300
+	232C  MTCA Event Generator 300
 1a3b  AzureWave
 	1112  AR9285 Wireless Network Adapter (PCI-Express)
 1a41  Tilera Corp.
