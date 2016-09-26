@@ -11003,7 +11003,7 @@
 # cannot find 7011, so simply use
 	7011  XILINX PCI DEVICE
 		1a3e 172c  PCIE Event Receiver 300
-		1a3e 132c  PCIE Event Receiver 300DC
+		1a3e 132c  MTCA/PCIE Event Receiver 300DC
 	7038  FPGA Card XC7VX690T
 		17aa 402f  FPGA XC7VX690T-3FFG1157E
 	8380  Ellips ProfiXpress Profibus Master

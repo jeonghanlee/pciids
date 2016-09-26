@@ -50,7 +50,41 @@ function checkstr() {
 
 
 declare -gr SUDO_CMD="sudo"
-declare -gr TARGET=/usr/share/hwdata/pci.ids
+declare -g TARGET
+
+
+declare -gr PCIIDS=pci.ids
+
+declare -gr CENTOS=/usr/share/hwdata/${PCIIDS}
+declare -gr DEBIAN=/usr/share/misc/${PCIIDS}
+
+declare -g RELEASE
+
+# declare -g ID_RELEASE=($(sed -n '/^ID=/p' /etc/os-release))
+# RELEASE=${ID_RELEASE:3}
+# RELEASE=${RELEASE//\"}
+# 
+RELEASE=($(. /etc/os-release; echo ${ID/*, /}))
+
+
+echo "${RELEASE} was determined."
+
+case "$RELEASE" in     
+    debian) 
+	TARGET=${DEBIAN};
+	;;
+    ubuntu) 
+	TARGET=${DEBIAN};
+	;;
+    centos)
+	TARGET=${CENTOS};
+	;;
+    *) 	
+	echo "don't support ${RELEASE} currently"
+    	echo >&2 	
+	exit 0         
+	;; 
+esac
 
 pushd ${SC_TOP}
 
