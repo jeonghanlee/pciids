@@ -9,4 +9,6 @@ the 3-clause BSD License.
 
 # README
 Add MRF PCI products into the pci.ids in order to see them in lspci command clearly. I might have to update them later in http://pci-ids.ucw.cz/ later. 
-
+```bash
+lspci -nmmn -i pci.ids | grep -E "\<(1a3e)"
+```
