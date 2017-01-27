@@ -11061,8 +11061,8 @@
 	3fc6  RME Hammerfall DSP MADI
 # cannot find 7011, so simply use
 	7011  XILINX PCI DEVICE
-		1a3e 172c  PCIE Event Receiver 300
-		1a3e 132c  MTCA/PCIE Event Receiver 300DC
+		1a3e 172c  PCIE Event Receiver 300(DC)
+		1a3e 132c  MTCA Event Receiver 300
 	7038  FPGA Card XC7VX690T
 		17aa 402f  FPGA XC7VX690T-3FFG1157E
 	8380  Ellips ProfiXpress Profibus Master
@@ -20008,13 +20008,13 @@
 	10e6  CPCI Event Receiver 230
 	20e6  CPCI Event Generator 230
 	152c  CPCI Event Receiver 300
-	172c  PCIE Event Receiver 300
+	172c  PCIE Event Receiver 300(DC)
 	252c  CPCI Event Generator 300
 	112c  PXIE Event Receiver 300
 	212c  PXIE Event Generator 300
 	192c  CPCI Event Receiver/Gun Transmitter 
 	30e6  CPCI Fan-Out Concentrator
-	132c  PCIE Event Receiver 300DC
+	132c  MTCA Event Receiver 300
 1a3b  AzureWave
 	1112  AR9285 Wireless Network Adapter (PCI-Express)
 1a41  Tilera Corp.
