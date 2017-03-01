@@ -19025,6 +19025,7 @@
 	0015  SIS8100 [Gigabit link, MicroTCA]
 	0018  SIS8300 [MicroTCA.4 digitizer]
 	0019  SIS8300-L(2) [MicroTCA.4 digitizer]
+	0024  SIS8300-KU [MicroTCA.4 digitizer]
 # nee Techwell, Inc.
 1797  Intersil Techwell
 	5864  TW5864 multimedia video controller
