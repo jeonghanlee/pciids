@@ -21224,6 +21224,10 @@
 7284  HT OMEGA Inc.
 # https://pcisig.com/membership/member-companies?combine=ioxos
 7357  IOxOS Technologies SA
+# IFC_1211/_1411 XUSER Technical User Guide 2.2.1.1
+        1001  PCIe EP No.0 - T2081
+	1002  PCIe EP No.1 - AMC
+	1003  PCIe EP No.2 - ADF
 7401  EndRun Technologies
 	e100  PTP3100 PCIe PTP Slave Clock
 7470  TP-LINK Technologies Co., Ltd.
