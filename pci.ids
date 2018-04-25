@@ -11509,6 +11509,7 @@
 	7011  XILINX PCI DEVICE
 		1a3e 172c  PCIE Event Receiver 300(DC)
 		1a3e 132c  MTCA Event Receiver 300
+		1a3e 232c  MTCA Event Master 300
 	7038  FPGA Card XC7VX690T
 		17aa 402f  FPGA XC7VX690T-3FFG1157E
 	8380  Ellips ProfiXpress Profibus Master
@@ -20813,6 +20814,7 @@
 	192c  CPCI Event Receiver/Gun Transmitter 
 	30e6  CPCI Fan-Out Concentrator
 	132c  MTCA Event Receiver 300
+	232c  MTCA Event Master 300
 1a3b  AzureWave
 	1112  AR9285 Wireless Network Adapter (PCI-Express)
 1a41  Tilera Corp.
