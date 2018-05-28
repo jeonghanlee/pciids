@@ -11528,7 +11528,8 @@
 	0001  EUROCOM for PCI (ECOMP)
 	0002  Octal E1/T1 for PCI ETP Card
 	0007  Default PCIe endpoint ID
-		cae2 71c0 CAENels MTCA DAMC-FMC25 
+		cae2 71c0 CAENels MTCA AMC-PICO-8
+		cae2 e551 CAENels MTCA DAMC-FMC25	
 	0205  Wildcard TE205P
 	0210  Wildcard TE210P
 	0300  Spartan 3 Designs (Xilinx IP)
