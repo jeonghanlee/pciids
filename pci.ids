@@ -29909,6 +29909,9 @@ cace  CACE Technologies, Inc.
 	0001  TurboCap Port A
 	0002  TurboCap Port B
 	0023  AirPcap N
+cae2  CAENels S.R.L.
+	71c0 CAENels MTCA AMC-PICO-8
+	e551 CAENels MTCA DAMC-FMC25
 caed  Canny Edge
 cafe  Chrysalis-ITS
 	0003  Luna K3 Hardware Security Module
