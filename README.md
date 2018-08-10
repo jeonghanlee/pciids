@@ -27,7 +27,7 @@ This repository contains some additonal HW pciids, which are used in mostly big 
 ```
 
 
-## Research Centre Juelich (Struck Innovative System)
+## Research Centre Juelich (Struck Innovative Systeme)
 
 * http://www.struck.de/
 
