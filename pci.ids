@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.04
-#	Date:    2019-01-04 03:15:02
+#	Version: 2019.01.09
+#	Date:    2019-01-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -57,8 +57,7 @@
 	0680  Ultra ATA/133 IDE RAID CONTROLLER CARD
 # Wrong ID used in subsystem ID of the TELES.S0/PCI 2.x ISDN adapter
 00a7  Teles AG (Wrong ID)
-# nee nCipher
-0100  Thales e-Security
+0100  nCipher Security
 0123  General Dynamics
 0128  Dell (wrong ID)
 # 018a is not LevelOne but there is a board misprogrammed
@@ -282,7 +281,6 @@
 		1028 1fcf  PERC H740P Mini
 		1d49 0601  ThinkSystem RAID 930-8i 2GB Flash PCIe 12Gb Adapter
 		1d49 0603  ThinkSystem RAID 930-24i 4GB Flash PCIe 12Gb Adapter
-		1d49 0604  ThinkSystem RAID 930-8e 4GB Flash PCIe 12Gb Adapter
 		8086 352e  Integrated RAID Module RMSP3CD080F
 		8086 352f  Integrated RAID Module RMSP3HD080E
 		8086 9461  RAID Controller RSP3DD080F
@@ -11351,17 +11349,23 @@
 	1e3e  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
-	1eab  TU104M [GeForce RTX 2080 Mobile]
+	1e90  TU104M [GeForce RTX 2080 Mobile]
+	1eab  TU104M
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
+	1ed0  TU104M [GeForce RTX 2080 Mobile]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
-	1f08  TU106
+	1f08  TU106 [GeForce RTX 2060 Rev. A]
+	1f10  TU106M [GeForce RTX 2070 Mobile]
+	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
+	1f50  TU106M [GeForce RTX 2070 Mobile]
+	1f51  TU106M [GeForce RTX 2060 Mobile]
 	1f82  TU107
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -19082,6 +19086,7 @@
 	0210  MT28908A0 Family [ConnectX-6 Secure Flash Recovery]
 	0211  MT416842 Family [BlueField SoC Flash Recovery]
 	0212  MT2892 Family [ConnectX-6 Dx Flash Recovery]
+	0213  MT2892 Family [ConnectX-6 Dx Secure Flash Recovery]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
@@ -19253,6 +19258,7 @@
 	2001  Skyhawk Series NVME SSD
 	5001  WD Black NVMe SSD
 	5002  WD Black 2018/PC SN720 NVMe SSD
+	5003  WD Black 2018/PC SN520 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -21820,6 +21826,7 @@
 1d7c  Aerotech, Inc.
 1d82  NETINT Technologies Inc.
 1d87  Fuzhou Rockchip Electronics Co., Ltd
+	0100  RK3399 PCI Express Root Port
 	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
 1d94  Chengdu Haiguang IC Design Co., Ltd.
@@ -28736,6 +28743,7 @@
 	3e89  8th Gen Core Processor PCIe Controller (x4)
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
+	3e93  UHD Graphics 610
 	3e9b  UHD Graphics 630 (Mobile)
 	3ea0  UHD Graphics 620 (Whiskey Lake)
 	3ea5  Iris Plus Graphics 655
@@ -30023,6 +30031,7 @@
 	a352  Cannon Lake PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
 	a363  Cannon Lake PCH Active Management Technology - SOL
+	a368  LPSS I2C Controller #0
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]
