@@ -22614,9 +22614,9 @@
 # https://pcisig.com/membership/member-companies?combine=ioxos
 # IFC_1211/_1411 XUSER Technical User Guide 2.2.1.1
 7357  IOxOS Technologies SA
-	1001  PCIe EP No.0 - T2081
-	1002  PCIe EP No.1 - AMC
-	1003  PCIe EP No.2 - ADF
+	1001  PCIeEP 0 T2081
+	1002  PCIeEP 1 IFC14XX
+	1003  PCIeEP 2 ADF
 	7910  7910 [Althea]
 
 7401  EndRun Technologies
