@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.07.25
-#	Date:    2019-07-25 03:15:02
+#	Version: 2019.08.08
+#	Date:    2019-08-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -608,6 +608,7 @@
 		1000 3060  SAS9217-4i4e
 		1014 0472  N2125 External Host Bus Adapter
 		1590 0041  H220i
+		1590 0042  H221 / 9207-8e
 		1590 0044  H220i
 		8086 3000  RS25GB008 RAID Controller
 		8086 3060  RS25FB044 RAID Controller
@@ -3213,7 +3214,7 @@
 		174b e180  Radeon HD 7350
 		17af 3015  Radeon HD 7350
 	68fe  Cedar LE
-	6900  Topaz XT [Radeon R7 M260/M265 / M340/M360 / M440/M445]
+	6900  Topaz XT [Radeon R7 M260/M265 / M340/M360 / M440/M445 / 530/535 / 620/625 Mobile]
 		1025 1056  Radeon R7 M360 / R8 M365DX
 		1028 0640  Radeon R7 M260/M265
 		1028 0643  Radeon R7 M260/M265
@@ -6233,6 +6234,7 @@
 	81c3  VO-4 [PSP TOOL Video Output Device]
 	81ce  SxS Pro memory card
 	81ff  PS3 TOOL MRP
+	8200  PS3 TOOL RSX Tracing FPGA
 	820e  CXD9208GP [PS3 PS2 emulation subsystem adapter]
 # 2nd ID
 	905c  SxS Pro memory card
@@ -10799,7 +10801,7 @@
 	0fc0  GK107 [GeForce GT 640 OEM]
 	0fc1  GK107 [GeForce GT 640]
 	0fc2  GK107 [GeForce GT 630 OEM]
-	0fc5  GK107
+	0fc5  GK107 [GeForce GT 1030]
 	0fc6  GK107 [GeForce GTX 650]
 		1043 8428  GTX650-DC-1GD5
 	0fc8  GK107 [GeForce GT 740]
@@ -18861,6 +18863,7 @@
 		14e4 8023  PS410T-H04 NetXtreme-S 4x10G 10GBaseT PCIe SmartNIC
 		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM (Part No BCM958802A8044C)
 		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM (Part No BCM958802A8048C)
+		1bb0 0021  HPE SimpliVity Accelerator
 	d804  BCM58804 Stingray 100Gb Ethernet SoC
 14e5  Pixelfusion Ltd
 14e6  SHINING Technology Inc
@@ -22470,6 +22473,12 @@
 	0215  Acorn CLE-215
 	021f  Acorn CLE-215+
 	1525  Xilinx BCU-1525
+# VU33P FPGA Accelerator
+	1533  ForestKitten 33
+# JungleCat VU33P Module
+	1633  JCM33
+# JungleCat VU35P Module
+	1635  JCM35
 1e26  Fujitsu Client Computing Limited
 1e38  Thinci, Inc
 1e3d  Burlywood, Inc
@@ -22481,6 +22490,7 @@
 	0001  PY8800
 	0100  PY8800
 		0000 0100  PY8800 64GB Accelerator
+1e6b  Axiado Corp.
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -23911,6 +23921,10 @@
 		1590 0264  NVMe Datacenter SSD [3DNAND] 3.2TB 2.5" U.2 (P4600)
 		1590 0265  NVMe Datacenter SSD [3DNAND] 6.4TB 2.5" U.2 (P4600)
 		1590 026c  NVMe Datacenter SSD [3DNAND] 4.0TB AIC (P4500)
+		1d49 4702  Thinksystem Intel P4500 NVMe U.2
+		1d49 4704  Thinksystem Intel P4500 NVMe AIC
+		1d49 4712  Thinksystem Intel P4600 NVMe U.2
+		1d49 4714  Thinksystem Intel P4600 NVMe AIC
 		1d49 4802  Thinksystem U.2 P4510 NVMe SSD
 		1d49 4812  Thinksystem U.2 P4610 NVMe SSD
 		8086 4308  Intel SSD D5-P4320 and D5-P4326
@@ -25151,6 +25165,8 @@
 	1563  Ethernet Controller 10G X550T
 		1028 1fa8  Ethernet 10G 4P X550/I350 rNDC
 		1028 1fa9  Ethernet 10G 4P X550 rNDC
+		1137 02b2  X550-TX 10 Gig LOM
+		1137 02b3  X550-TX 10 Gig LOM
 		1170 0001  Intel Ethernet Controller X550-T2 OCP card
 		14c0 1201  X550 10Gb 2P RJ45 OCP Mezz
 		1590 00d1  Ethernet 10Gb 2-port 562T Adapter
@@ -25221,6 +25237,7 @@
 		8086 4005  Ethernet Controller X710 for 10GbE SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
 		8086 4007  Ethernet Controller X710 for 10GbE SFP+
+	1574  Ethernet Controller XL710 Emulation
 	1575  DSL6340 Thunderbolt 3 NHI [Alpine Ridge 2C 2015]
 	1576  DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]
 	1577  DSL6540 Thunderbolt 3 NHI [Alpine Ridge 4C 2015]
@@ -25244,6 +25261,7 @@
 		1028 1f9f  Ethernet 40G 2P XL710 QSFP+ rNDC
 		108e 0000  10 Gb/40 Gb Ethernet Adapter
 		108e 7b1b  10 Gb/40 Gb Ethernet Adapter
+		108e 7b1d  10Gb/40Gb Ethernet Adapter
 		1137 0000  Ethernet Converged NIC XL710-QDA2
 		1137 013c  Ethernet Converged NIC XL710-QDA2
 		8086 0000  Ethernet Converged Network Adapter XL710-Q2
@@ -25282,11 +25300,14 @@
 	158a  Ethernet Controller XXV710 for 25GbE backplane
 		1590 0000  10/25Gb Ethernet Adapter
 		1590 0286  Synergy 4610C 10/25Gb Ethernet Adapter
+		8086 0000  Ethernet Controller XXV710 for 25GbE backplane
 		8086 000a  Ethernet 25G 2P XXV710 Mezz
 	158b  Ethernet Controller XXV710 for 25GbE SFP28
 		1137 0000  Ethernet Network Adapter XXV710
 		1137 0225  Ethernet Network Adapter XXV710
 		1137 02b4  Ethernet Network Adapter XXV710 OCP 2.0
+		1590 0000  Ethernet Network Adapter XXV710-2
+		1590 0253  Ethernet 10/25/Gb 2-port 661SFP28 Adapter
 		8086 0000  Ethernet Network Adapter XXV710
 		8086 0001  Ethernet Network Adapter XXV710-2
 		8086 0002  Ethernet Network Adapter XXV710-2
@@ -29051,6 +29072,7 @@
 		17aa 4020  Ethernet Connection X722 for 1GbE
 		17aa 4021  Ethernet Connection X722 for 1GbE
 		17aa 4022  Ethernet Connection X722 for 1GbE
+		17aa 4024  Ethernet Connection X722 for 1GbE
 	37d2  Ethernet Connection X722 for 10GBASE-T
 		1170 37d2  Ethernet Connection X722 for 10GBASE-T
 		14cd 0030  Ethernet OCP 2x10G RJ45 Phy Card [USI-X557-10GbaseT]
@@ -29058,6 +29080,7 @@
 		17aa 4020  Ethernet Connection X722 for 10GBASE-T
 		17aa 4021  Ethernet Connection X722 for 10GBASE-T
 		17aa 4022  Ethernet Connection X722 for 10GBASE-T
+		17aa 4024  Ethernet Connection X722 for 10GBASE-T
 		17aa 4025  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
 		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
@@ -30811,8 +30834,7 @@
 	d158  Core Processor Miscellaneous Registers
 	f1a5  SSD 600P Series
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
-	f1a8  SSDPEKNW020T8 [660p, 2TB]
-		8086 390d  SSDPEKNW020T8 [660p, 2TB]
+	f1a8  SSD 660P Series
 8088  Beijing Wangxun Technology Co., Ltd.
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
