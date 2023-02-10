@@ -1,7 +1,24 @@
-pciids
-===
+# pciids
 
-This repository contains some additonal HW pciids, which are used in mostly big science facilities. The following HW one can find :
+When we run `lspci`, we can see pci device names there. The story behind is that many peoples update their interesting device name into a centralized db file by hand.
+
+This effort helps a lot of Linux users' life easy. However, sometimes, the procedure needs a lot of time to spend that happens.
+
+For big science facilities around world, typically, it is a painful effort to follow the private sector practices.
+
+This repository was introduced to overcome this issue at least with minimum resouces and contains a few hardware PCIID database information. 
+
+One can update the generic pci id file by the following commands
+
+
+```
+$ bash replace_pciids.bash
+
+```
+It will replace your local pciids with the repository pciids. 
+
+The following hardware pciid defintions are in this repository.
+
 
 ## Micro-Research Finland Oy 
 
